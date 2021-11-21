@@ -474,7 +474,7 @@ p {
 .owl-next {
   font-size: 25px !important;
 }
-@media screen and (max-width: 650px) {
+@media screen and (max-width: 768px) {
   .big-menu li {
     float: none;
     width: auto !important;
