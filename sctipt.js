@@ -1,13 +1,15 @@
 
 $(".owl-carousel").owlCarousel({
-  items: 3,
+  items: 1,
   loop: true,
-  margin: 25,
-  nav: false,
-  
+  autoplay:false,
+  dots:false,
+  nav: true,
+  margin:60,
+  navText:['<i class="fas fa-long-arrow-alt-right"></i>', '<i class="fas fa-long-arrow-alt-left"></i>']
 });
 $('.product-list').masonry({
   // // options
   // itemSelector: '.grid-item',
-  // columnWidth: 200
+  // columnWidth: 300
 });

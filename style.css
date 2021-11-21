@@ -5,7 +5,6 @@ body {
   font-family: "Karla", sans-serif;
   height: 100%;
 }
-
 @font-face {
   font-family: "CodeBold";
   src: url("./font/Code-Bold.eot") format("emdeded-opentype");
@@ -344,7 +343,168 @@ p {
   width: 100%;
   background: #f9f9f8;
   margin-top: 20px;
+  margin-bottom: 50px;
 }
 .load-more-broduct-btn:hover {
   color: rgba(0, 0, 0, 0.411);
+}
+.products-promotion {
+  background: #f8f5f5;
+}
+.promo-bg {
+  background: #f4f0f0;
+  padding-top: 50px;
+}
+.promo-content {
+  padding-left: 30px;
+  padding-top: 55px;
+}
+.promo-heading h2 {
+  text-transform: uppercase;
+  margin: 0;
+  color: #e84f88;
+  font-size: 35px;
+}
+.promo-heading {
+  position: relative;
+}
+.year-text {
+  position: absolute;
+  right: 22%;
+  font-size: 115px;
+  color: #51abc8;
+  opacity: 0.2;
+  top: -26px;
+}
+.promo-content p {
+  margin-top: 25px;
+}
+.box-btn {
+  text-decoration: none;
+  color: #fff;
+  background: #0d6efd;
+  padding: 5px 25px;
+  text-transform: uppercase;
+}
+.promo-bg img {
+  width: 420px;
+}
+.box-btn:hover {
+  color: #fff;
+}
+.brand-image img {
+  width: calc(17% - 42px);
+  margin-right: 20px;
+}
+.brand-image {
+  padding-top: 100px;
+  width: 100%;
+  text-align: center;
+}
+.brand-image img:nth-child(2),
+.brand-image img:nth-child(3),
+.brand-image img:nth-child(4),
+.brand-image img:nth-child(5),
+.brand-image img:nth-child(6) {
+  height: 35px;
+  object-fit: contain;
+}
+.footer-section {
+  background: #f4f4f4;
+  padding-bottom: 30px;
+}
+.footer-menu ul {
+  list-style: none;
+  margin-right: 0;
+  padding: 0;
+  text-transform: uppercase;
+  padding-top: 60px;
+  margin-bottom: 0;
+}
+.footer-menu ul li {
+  display: inline-block;
+  margin-right: 10px;
+}
+.footer-menu ul li a {
+  display: inline-block;
+  color: #919191;
+  text-decoration: none;
+}
+.social-links {
+  text-align: right;
+  margin-bottom: 10px;
+}
+.social-links a {
+  padding-top: 60px;
+  color: #b5b3b3;
+  display: inline-block;
+  margin-right: 10px;
+}
+.from-suscribe {
+  text-align: right;
+}
+.new {
+  background: #e864b5;
+  border: none;
+  padding: 10px 12px;
+  text-transform: uppercase;
+  font-size: 17px;
+}
+.new1 {
+  outline: none;
+  border: navajowhite;
+  padding: 3px;
+}
+.owl-carousel .owl-item img {
+  width: 450px !important;
+}
+.owl-nav button {
+  position: absolute;
+  top: 50%;
+  left: 5%;
+  font-size: 20px;
+  line-height: 40px;
+  margin-top: -20px;
+}
+.owl-nav button.owl-next {
+  right: 5%;
+  left: auto;
+}
+.owl-nav .owl-prev,
+.owl-next {
+  font-size: 25px !important;
+}
+@media screen and (max-width: 500px) {
+  .slider-text-tablecell {
+    padding-left: 10%;
+    font-family: "CodeLight";
+    font-size: 80px;
+  }
+  .promo-bg img {
+    width: 337px;
+  }
+  .big-menu li {
+    float: none;
+    width: auto !important;
+    font-size: 30px;
+  }
+  strong {
+    font-size: 30px;
+  }
+  .big-menu li:nth-child(4) a {
+    text-align: center;
+  }
+  .year-text {
+    right: 18%;
+    font-size: 69px;
+
+    top: 12px;
+  }
+  .from-suscribe {
+    text-align: left !important;
+    display: flex;
+  }
+  .owl-carousel .owl-item img {
+    width: 371px !important;
+  }
 }
