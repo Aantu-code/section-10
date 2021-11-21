@@ -474,6 +474,12 @@ p {
 .owl-next {
   font-size: 25px !important;
 }
+@media screen and (max-width: 650px) {
+  .big-menu li {
+    float: none;
+    width: auto !important;
+  }
+}
 @media screen and (max-width: 500px) {
   .slider-text-tablecell {
     padding-left: 10%;
